@@ -1,0 +1,20 @@
+Terminal type is now 'wxt'
+gnuplot> pl 'mc1_conf.txt' index 0 u 1:2
+Gtk-Message: 13:50:29.052: Failed to load module "canberra-gtk-module"
+gnuplot> pl 'mc1_conf.txt' index 100 u 1:2
+gnuplot> pl 'mc1_conf.txt' index 100 u (0):2
+Warning: empty x range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 100 u 2:(0)
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 0 u 2:(0)
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 0 u 2:(0) w p pt 6
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 0 u 2:(0) w p pt 7
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 0 u 2:(0) w p pt 7 ps 0.2
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> pl 'mc1_conf.txt' index 100 u 2:(0) w p pt 7 ps 0.2
+Warning: empty y range [0:0], adjusting to [-1:1]
+gnuplot> 
+
